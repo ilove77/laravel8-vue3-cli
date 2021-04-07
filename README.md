@@ -17,6 +17,16 @@ then install backend modules by running
 and front-end modules :
 
      npm install
+     
+創建.env文件並運行：
+
+php artisan key:generate
+在拉動git項目後，這對我有用。
+
+創建.env文件並生成密鑰後，運行以下代碼：
+
+php artisan cache:clear 
+php artisan config:clear
 
 finally add your magic.     
 
