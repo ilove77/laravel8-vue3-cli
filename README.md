@@ -28,5 +28,5 @@ php artisan key:generate
 php artisan cache:clear 
 php artisan config:clear
 
-finally add your magic.     
+`執行php aritsan serve 
 
